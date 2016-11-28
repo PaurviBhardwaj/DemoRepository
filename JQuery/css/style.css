@@ -3,12 +3,17 @@ h2{
   color: white;
 }
 h1{
-  text-align: center;
   color: white;
+  text-align: center;
+  font-size: 70px;
 }
 
 body{
   background-image: url("../img/background.jpg"); 
+}
+
+.btn{
+  width: 100px;
 }
 
 .main th{
@@ -36,3 +41,17 @@ body{
 #pageList{
   float: right;
 }
+
+@media (min-width:650px){
+body{
+  background-image: url("../img/background.jpg");
+}
+.col-xs-12{
+  text-align: center;
+}
+
+.second{
+  margin-left: 135px;
+}
+}
+
